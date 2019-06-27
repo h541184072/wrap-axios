@@ -1,28 +1,26 @@
 {
   "name": "wrap-axios",
   "version": "0.0.1",
-  "description": "a tms http lib",
+  "description": "wrap axios",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "jest",
     "tsc": "tsc"
   },
+  "keywords": [
+    "js",
+    "axios",
+    "wrap"
+  ],
   "dependencies": {
+    "@types/lodash.merge": "^4.6.6",
     "axios": "^0.19.0",
-    "lodash.merge": "^4.6.1",
     "prettier": "^1.18.2"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "@types/lodash": "^4.14.116",
-    "@types/lodash.merge": "^4.6.4",
-    "@types/node": "^12.0.10",
-    "jest": "^24.8.0",
-    "mockjs": "^1.0.1-beta3",
-    "ts-jest": "^24.0.2",
     "typescript": "^3.0.1"
   },
-  "author": "ives",
-  "license": "ISC"
+  "repository": "https://github.com/h541184072/wrap-axios.git",
+  "author": "h541184072 <541184072@qq.com>",
+  "license": "MIT"
 }
